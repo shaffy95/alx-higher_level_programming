@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-for value in range(9):
+for value in range(0, 10):
     for num in range(value + 1, 10):
         if value == 8 and num == 9:
-            print(f"{value}{num}")
+            print('89')
         else:
-            print(f"{value}{num}, ", end='')
-
+            print('{}{}, '.format(value, num), end='')
